@@ -1,0 +1,5 @@
+{"key": 1, "op": "c", "lsn": 100, "after": {"status": "new"}}
+{"key": 1, "op": "u", "lsn": 110, "after": {"status": "shipped"}}
+{"key": 2, "op": "c", "lsn": 120, "after": {"status": "new"}}
+{"key": 1, "op": "u", "lsn": 105, "after": {"status": "stale"}}
+{"key": 2, "op": "d", "lsn": 130}
